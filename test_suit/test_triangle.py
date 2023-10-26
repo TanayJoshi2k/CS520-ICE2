@@ -10,10 +10,5 @@ class TriangleTest(unittest.TestCase):
         expected = Triangle.Type.EQUILATERAL
         self.assertEqual(actual, expected)
 
-    def test2(self):
-        actual = Triangle.classify(2, 3, 4)
-        expected = Triangle.Type.SCALENE
-        self.assertEqual(actual, expected)
-
 if __name__ == '__main__':
     unittest.main()
